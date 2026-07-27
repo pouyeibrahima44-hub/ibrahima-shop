@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="paiement.css">
+</head>
+
+  <body>
+  <header>
+    <div class="logo">FASHION STORE</div>
+    <nav>
+        <a href="projet.html">Accueil</a>
+        <a href="page2Project.html">Boutique</a>
+        <a href="page3Projet.html">Homme</a>
+        <a href="page4.Projet.html">Femme</a>
+        <a href="page5Projet.html">Enfant</a>
+        <a href="page6Projet.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="paiement-wrapper">
+    <div class="box">
+      <h1>💳 Mode de paiement</h1>
+
+      <div class="info">
+        <h3 id="nom">Produit : ...</h3>
+        <h3 id="prix">Prix : ...</h3>
+        <h3 id="taille">Taille :...</h3>
+        <h3 id="quantite">Quantite :...</h3>
+      </div>
+
+      <label>Choisir un moyen de paiement</label>
+      <select>
+        <option>Orange Money</option>
+        <option>Wave</option>
+        <option>Carte bancaire</option>
+      </select>
+
+      <input type="text" placeholder="Numéro de téléphone">
+
+      <button onclick="payer()">Payer maintenant</button>
+    </div>
+  </div>
+
+  <script src="paiement.js"></script>
+</body>
+</html>
