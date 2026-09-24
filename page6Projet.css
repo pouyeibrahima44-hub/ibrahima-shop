@@ -6,7 +6,8 @@
 }
 
 body{
-    background:#f5f5f5;
+    background:linear-gradient(109deg, grey, white);
+    color: #fff;
 }
 
 .contact{
@@ -23,7 +24,7 @@ body{
 
 .contact p{
     text-align:center;
-    color:#666;
+    color:grey;
 }
 
 .contact-container{

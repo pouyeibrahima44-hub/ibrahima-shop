@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const carte = bouton.closest("div");
         if (!carte) return;
 
-        // Récupérer le nom du produit dans le h3
         let nom = "Produit";
         const titre = carte.querySelector("h3");
 
